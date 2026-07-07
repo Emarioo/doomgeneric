@@ -4,10 +4,10 @@
 *.DS_Store
 *.log
 *.user
-*~
+# *~
 .vs/
 Debug/
 Release/
 Build/
-doomgeneric
+# doomgeneric
 doomgeneric.map
