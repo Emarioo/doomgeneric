@@ -5,7 +5,7 @@
 #include "m_argv.h"
 #include "doomgeneric.h"
 
-#include "elos/syscalls.h"
+#include "elos/elos.h"
 #include "prism/prism.h"
 #include "elos/common/intrinsics.h"
 

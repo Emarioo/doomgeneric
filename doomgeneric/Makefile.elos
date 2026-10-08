@@ -28,7 +28,7 @@ LDFLAGS+=
 LIBS+=
 
 CFLAGS += -g -O0   -nostdlib -nostartfiles -nodefaultlibs -fno-asynchronous-unwind-tables -fno-exceptions -fno-stack-protector -Wl,--no-warn-execstack -Wno-builtin-declaration-mismatch
-CFLAGS += -I $(ELOS_ROOT)/kernel/src -I $(ELOS_ROOT)/kernel/include -I $(PRISM_ROOT)/include -I $(ELOS_ROOT)/apps/std
+CFLAGS += -I $(ELOS_ROOT)/kernel/src -I $(ELOS_ROOT)/kernel/include -I $(ELOS_ROOT)/include -I $(PRISM_ROOT)/include -I $(ELOS_ROOT)/apps/std
 
 # subdirectory for objects
 OBJDIR ?= int
