@@ -142,13 +142,13 @@ void DG_Init(){
 
     g_instance = prism_init();
     if (!g_instance) {
-        printf("terminal: Could not init PRISM client\n");
+        printf("doom: Could not init PRISM client\n");
         exit(1);
     }
 
     g_surface = prism_createSurface(g_instance, DOOMGENERIC_RESX, DOOMGENERIC_RESY);
     if (!g_surface) {
-        printf("terminal: Could not create surface\n");
+        printf("doom: Could not create surface\n");
         exit(1);
     }
 
@@ -159,7 +159,7 @@ void DG_Init(){
     ELOS_Error error;
     error = SYS_request_user_event_buffer(1000, &userEvents);
     if (error != ELOS_OK) {
-        printf("terminal: Could not create user event buffer\n");
+        printf("doom: Could not create user event buffer\n");
         exit(1);
     }
 }
